@@ -9,7 +9,7 @@ public class JobA extends Job {
 		}
 		
 		result = 1000;
-		System.out.println("Callback JobComplete");
+        System.out.println("Callback JobComplete...");
 //		scheduler.onJobComplete(this);
 		
 	}
