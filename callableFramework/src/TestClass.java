@@ -31,9 +31,11 @@ public class TestClass {
 		};
 		
 		jscheduler.AddAllJob(jobs);
+
+        System.out.println("printing now");
 		
-		// jscheduler.executeAll();
-		jscheduler.executeAllParallel();
+		jscheduler.executeAll();
+//		jscheduler.executeAllParallel();
 
 	}
 
