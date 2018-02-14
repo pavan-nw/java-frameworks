@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a29abde-0329-4e56-a12e-d692f843e018" name="Default" comment="Testing update">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/callableFramework/src/TestClass.java" afterPath="$PROJECT_DIR$/callableFramework/src/TestClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/callableFramework/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="java-frameworks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,10 +103,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JobScheduler.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="JobScheduler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/callableFramework/src/JobScheduler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="23" selection-start="388" selection-end="395" vertical-scroll-proportion="0.26190478" vertical-offset="0" max-vertical-offset="1892">
+            <state line="15" column="23" selection-start="388" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1892">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/callableFramework/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="672">
               <folding />
             </state>
           </provider>
@@ -126,6 +136,7 @@
       <list>
         <option value="$PROJECT_DIR$/callableFramework/src/JobA.java" />
         <option value="$PROJECT_DIR$/callableFramework/src/TestClass.java" />
+        <option value="$PROJECT_DIR$/callableFramework/.gitignore" />
       </list>
     </option>
   </component>
@@ -515,7 +526,7 @@
       <changelist id="0a29abde-0329-4e56-a12e-d692f843e018" name="Default" comment="" />
       <created>1518593058579</created>
       <updated>1518593058579</updated>
-      <workItem from="1518593061991" duration="368000" />
+      <workItem from="1518593061991" duration="529000" />
     </task>
     <task id="LOCAL-00001" summary="Testing update">
       <created>1518593208045</created>
@@ -525,7 +536,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="368000" />
+    <option name="totallyTimeSpent" value="529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -552,7 +563,7 @@
       <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -616,7 +627,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/callableFramework/src/JobScheduler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="23" selection-start="388" selection-end="395" vertical-scroll-proportion="0.26190478" vertical-offset="0" max-vertical-offset="1892">
+        <state line="15" column="23" selection-start="388" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1892">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callableFramework/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="672">
           <folding />
         </state>
       </provider>
