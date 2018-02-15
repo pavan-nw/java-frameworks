@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
 
 public abstract class JobScheduler
 {
@@ -21,7 +21,6 @@ public abstract class JobScheduler
 
     public void AddAllJob(List<Job> jobs)
     {
-
         for (Job job : jobs)
         {
             job.setScheduler(this);
@@ -52,11 +51,11 @@ public abstract class JobScheduler
 
     public void executeAllParallelWithBlocking()
     {
+        List cjobs = new ArrayList<Callable>(jobs);
         ExecutorService exec = Executors.newFixedThreadPool(2);
-        List<Future<Integer>> results = null;
         try
         {
-            results = exec.invokeAll(jobs);
+            exec.invokeAll(cjobs);
         }
         catch (InterruptedException e)
         {

@@ -8,7 +8,10 @@ public class TestClass
     {
         List<Job> jobs = new ArrayList<Job>();
         jobs.add(new JobA());
-        jobs.add(new JobB());
+        JobB jobB = new JobB();
+        jobB.setOnJobInit(() -> System.out.println("init method"));
+        jobB.setOnJobComplete(() -> System.out.println("complete method"));
+        jobs.add(jobB);
 
         JobScheduler jscheduler = new JobScheduler()
         {
@@ -25,8 +28,8 @@ public class TestClass
         jscheduler.AddAllJob(jobs);
 
 //        jscheduler.executeAll();
-//        jscheduler.executeAllParallelWithBlocking();
-        jscheduler.executeAllParallelWithoutBlocking();
+        jscheduler.executeAllParallelWithBlocking();
+//        jscheduler.executeAllParallelWithoutBlocking();
 
         System.out.println(Thread.currentThread().getName());
     }
