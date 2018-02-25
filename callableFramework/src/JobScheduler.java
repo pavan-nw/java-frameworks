@@ -19,7 +19,7 @@ public abstract class JobScheduler
         this.jobs = jobs;
     }
 
-    public void AddAllJob(List<Job> jobs)
+    public void AddAllJobs(List<Job> jobs)
     {
         for (Job job : jobs)
         {
