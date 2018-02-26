@@ -25,7 +25,7 @@ public class TestClass
             }
         };
 
-        jscheduler.AddAllJob(jobs);
+        jscheduler.AddAllJobs(jobs);
 
 //        jscheduler.executeAll();
         jscheduler.executeAllParallelWithBlocking();
